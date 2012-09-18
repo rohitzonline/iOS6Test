@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B38C8751608A383001383A5 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B38C8741608A383001383A5 /* TestView.xib */; };
 		9B697DB015F7114700D00D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B697DAF15F7114700D00D06 /* UIKit.framework */; };
 		9B697DB215F7114700D00D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B697DB115F7114700D00D06 /* Foundation.framework */; };
 		9B697DB415F7114700D00D06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B697DB315F7114700D00D06 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B38C8741608A383001383A5 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		9B38C8771608A396001383A5 /* MoreFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreFile.h; sourceTree = "<group>"; };
 		9B697DAB15F7114700D00D06 /* TestiOS62.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestiOS62.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B697DAF15F7114700D00D06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B697DB115F7114700D00D06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,8 @@
 		9B697DA015F7114700D00D06 = {
 			isa = PBXGroup;
 			children = (
+				9B38C8771608A396001383A5 /* MoreFile.h */,
+				9B38C8741608A383001383A5 /* TestView.xib */,
 				9B697DB515F7114700D00D06 /* TestiOS62 */,
 				9B697DDC15F7114700D00D06 /* TestiOS62Tests */,
 				9B697DAE15F7114700D00D06 /* Frameworks */,
@@ -237,6 +242,7 @@
 				9B697DC915F7114700D00D06 /* MainViewController_iPhone.xib in Resources */,
 				9B697DCC15F7114700D00D06 /* MainViewController_iPad.xib in Resources */,
 				9B697DCF15F7114700D00D06 /* FlipsideViewController.xib in Resources */,
+				9B38C8751608A383001383A5 /* TestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +470,7 @@
 				9B697DE915F7114700D00D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B697DEA15F7114700D00D06 /* Build configuration list for PBXNativeTarget "TestiOS62Tests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				9B697DEC15F7114700D00D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
